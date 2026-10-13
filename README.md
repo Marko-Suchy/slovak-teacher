@@ -41,7 +41,7 @@ npm run check:content
 
 To add a story, copy an existing JSON file in `content/stories/`, give it a unique filename and `id`, then write the Slovak sentences with matching English translations, glossary entries for useful words, and three to five source-linked questions. Run `npm run check:content` and refresh the browser; no application code change is needed. For an example, see `content/stories/balik-na-poste.json`. The longer citizenship-office story has [source and terminology notes](docs/citizenship-story-notes.md).
 
-Flashcards and reading progress are saved in `.data/state.json` on this computer. Generated speech and AI explanations are cached in `.data/speech/` and `.data/explanations/`. Both `.data` and `.env.local` are ignored by Git.
+Flashcards and reading progress are saved in `.data/state.json` on this computer. In **Review**, edit or tag saved words in **Word directory**, filter the set staged for **Practice**, and flip through every staged card whenever you like. **Export to Quizlet** prepares tab-separated terms and definitions to copy or download; import them on the Quizlet website. Generated speech and AI explanations are cached in `.data/speech/` and `.data/explanations/`. Both `.data` and `.env.local` are ignored by Git.
 
 The ten included stories are original drafts. Their Slovak, English translations, and teaching notes should receive an independent native-speaker review before being treated as authoritative learning material.
 

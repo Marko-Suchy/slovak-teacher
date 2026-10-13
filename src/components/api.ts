@@ -29,8 +29,8 @@ export const api = {
   cards: () => request<Card[]>("/api/cards"),
   addCard: (body: { storyId: string; sentenceId: string; front: string; back: string; lemma?: string; note?: string }) =>
     request<Card>("/api/cards", json(body)),
-  reviewCard: (id: string, rating: "again" | "know") =>
-    request<Card>(`/api/cards/${encodeURIComponent(id)}/review`, json({ rating })),
+  updateCard: (id: string, changes: Pick<Card, "front" | "back" | "tags">) =>
+    request<Card>(`/api/cards/${encodeURIComponent(id)}`, { ...json(changes), method: "PATCH" }),
   progress: () => request<Progress[]>("/api/progress"),
   saveProgress: (body: { storyId: string; status?: Progress["status"]; quizScore?: number }) =>
     request<Progress>("/api/progress", json(body)),

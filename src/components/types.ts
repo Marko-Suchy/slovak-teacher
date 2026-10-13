@@ -48,9 +48,7 @@ export type Card = {
   lemma?: string;
   note?: string;
   createdAt: string;
-  dueAt: string;
-  intervalDays: number;
-  repetitions: number;
+  tags: string[];
 };
 export type Progress = {
   storyId: string;

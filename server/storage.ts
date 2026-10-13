@@ -11,9 +11,7 @@ export interface Card {
   lemma?: string;
   note?: string;
   createdAt: string;
-  dueAt: string;
-  intervalDays: number;
-  repetitions: number;
+  tags: string[];
 }
 
 export interface StoryProgress {
@@ -32,7 +30,11 @@ let mutationQueue: Promise<unknown> = Promise.resolve();
 async function readStore(): Promise<Store> {
   try {
     const parsed = JSON.parse(await readFile(dataPath, 'utf8')) as Partial<Store>;
-    return { cards: Array.isArray(parsed.cards) ? parsed.cards : [], progress: Array.isArray(parsed.progress) ? parsed.progress : [] };
+    const cards = Array.isArray(parsed.cards) ? parsed.cards.map(({ id, storyId, sentenceId, front, back, lemma, note, createdAt, tags }) => ({
+      id, storyId, sentenceId, front, back, lemma, note, createdAt,
+      tags: Array.isArray(tags) ? tags : [],
+    })) : [];
+    return { cards, progress: Array.isArray(parsed.progress) ? parsed.progress : [] };
   } catch (error) {
     if ((error as NodeJS.ErrnoException).code === 'ENOENT') return { cards: [], progress: [] };
     throw error;
@@ -61,25 +63,19 @@ export async function addCard(input: Pick<Card, 'storyId' | 'sentenceId' | 'fron
     const existing = store.cards.find(card => card.storyId === input.storyId && card.sentenceId === input.sentenceId && card.front.toLocaleLowerCase() === input.front.toLocaleLowerCase());
     if (existing) return existing;
     const now = new Date().toISOString();
-    const card: Card = { id: randomUUID(), ...input, createdAt: now, dueAt: now, intervalDays: 0, repetitions: 0 };
+    const card: Card = { id: randomUUID(), ...input, createdAt: now, tags: [] };
     store.cards.push(card);
     return card;
   });
 }
 
-export async function reviewCard(id: string, rating: 'again' | 'know'): Promise<Card | undefined> {
+export async function updateCard(id: string, changes: Pick<Card, 'front' | 'back' | 'tags'>): Promise<Card | undefined> {
   return mutate(store => {
     const card = store.cards.find(item => item.id === id);
     if (!card) return undefined;
-    if (rating === 'again') {
-      card.repetitions = 0;
-      card.intervalDays = 0;
-      card.dueAt = new Date(Date.now() + 10 * 60 * 1000).toISOString();
-    } else {
-      card.repetitions += 1;
-      card.intervalDays = card.repetitions === 1 ? 1 : card.repetitions === 2 ? 3 : Math.min(60, Math.round(card.intervalDays * 2));
-      card.dueAt = new Date(Date.now() + card.intervalDays * 24 * 60 * 60 * 1000).toISOString();
-    }
+    card.front = changes.front;
+    card.back = changes.back;
+    card.tags = changes.tags;
     return card;
   });
 }

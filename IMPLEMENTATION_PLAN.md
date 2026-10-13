@@ -13,7 +13,7 @@ Build a personal, ten-minute Slovak reading practice app for an A1 learner. A se
 - Reader with Slovak text on the left, an inspector above the tutor on the right. On narrow screens, the inspector and tutor become tabs or a bottom sheet.
 - Select a word, phrase, or sentence to see an English explanation. A known story word shows its reviewed dictionary form and selected inflections.
 - Play Slovak pronunciation for selected text.
-- Save a selected word or phrase as a flashcard and review due cards.
+- Save a selected word or phrase as a flashcard and practice any staged set.
 - Ask text questions about the story; the tutor replies mostly in simple Slovak and can clarify in English.
 - Start and stop a live, story-aware Slovak voice conversation, with a transcript and microphone controls.
 - Finish the story with multiple-choice questions and a short result/review screen.
@@ -29,7 +29,7 @@ Build a personal, ten-minute Slovak reading practice app for an A1 learner. A se
 2. Read the Slovak text. Tap or drag to select text; the inspector shows its translation, base form if applicable, short usage note, and pronunciation control.
 3. Save important selections as cards. Ask the tutor a question without leaving the story.
 4. Answer 3–5 questions. See the relevant passage and explanation after each answer.
-5. Review a few due cards. The app records story completion, quiz result, and the next review date.
+5. Practice a tagged set of saved cards. The app records story completion and quiz results.
 
 The main flow should be usable with only one AI request at a time and should degrade gracefully if the AI service is unavailable: stories, prepared translations, questions, and saved cards still work.
 
@@ -92,9 +92,9 @@ For live voice, start a session only after the learner presses **Talk**. Handle 
 
 ## Flashcards and progress
 
-A card stores the selected surface form, dictionary form where relevant, English meaning, source story/sentence, a short example, created date, and review state. The learner can edit the meaning before saving because a selected word may have more than one translation.
+A card stores the selected surface form, dictionary form where relevant, English meaning, source story/sentence, a short example, created date, and tags. The learner can edit the meaning because a selected word may have more than one translation.
 
-Use a small spaced-review algorithm with `dueAt`, `interval`, and `ease` (or equivalent). Start with two review actions, **Again** and **Know it**. Show only due cards in the nightly flow; a full deck view can come later. Record per-story status, last opened date, quiz score, and completed date. Avoid turning the first version into an analytics dashboard.
+The Review tab now has a word directory and a practice deck. Saved cards can be edited and tagged; the active tag filter determines which cards are staged. Practice cycles through every staged card without due dates or spaced scheduling. The staged set can be copied or downloaded as tab-separated term/definition pairs for Quizlet import. Record per-story status, last opened date, quiz score, and completed date separately from word practice.
 
 ## API and data contracts
 
@@ -106,7 +106,7 @@ Likely server routes:
 | `POST /api/inspect` | Explain an unknown selection with story context. |
 | `POST /api/tutor` | Generate a text tutor response. |
 | `POST /api/speech` | Generate and cache pronunciation audio. |
-| `GET/POST /api/cards`, `POST /api/cards/:id/review` | Save and review flashcards. |
+| `GET/POST /api/cards`, `PATCH /api/cards/:id` | Save, edit, and tag flashcards. |
 | `GET/POST /api/progress` | Persist reading and quiz progress. |
 | `POST /api/voice/session` | Mint a short-lived voice credential. |
 
@@ -124,7 +124,7 @@ Build the library, responsive reader, selection logic, prepared translations/glo
 
 ### Phase 2 — Saved practice and AI text help
 
-Add persistence, cards, due review, text tutor, generated fallback explanations, and error/cost controls. **Done when:** a learner can resume progress, save/review a card, and ask a story-specific question; failures leave the reading flow usable.
+Add persistence, cards, practice, text tutor, generated fallback explanations, and error/cost controls. **Done when:** a learner can resume progress, save/practice a card, and ask a story-specific question; failures leave the reading flow usable.
 
 ### Phase 3 — Pronunciation, live voice, and content expansion
 

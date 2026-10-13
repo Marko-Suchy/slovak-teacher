@@ -3,7 +3,7 @@ import path from 'node:path';
 import express, { type Request, type Response, type NextFunction } from 'express';
 import { createVoiceClientSecret, hasApiKey, inspectUnknown, synthesizeSpeech, tutorReply } from './ai.js';
 import { getStory, listStories, wordCount } from './content.js';
-import { addCard, listCards, listProgress, reviewCard, updateProgress } from './storage.js';
+import { addCard, listCards, listProgress, updateCard, updateProgress } from './storage.js';
 
 if (existsSync('.env.local')) process.loadEnvFile('.env.local');
 if (existsSync('.env')) process.loadEnvFile('.env');
@@ -106,10 +106,18 @@ app.post('/api/cards', async (req, res) => {
   const note = typeof req.body?.note === 'string' ? req.body.note.slice(0, 300) : undefined;
   res.status(201).json(await addCard({ storyId: story.id, sentenceId, front, back, lemma, note }));
 });
-app.post('/api/cards/:id/review', async (req, res) => {
-  const rating = req.body?.rating;
-  if (rating !== 'again' && rating !== 'know') throw badRequest('rating must be again or know');
-  const card = await reviewCard(req.params.id, rating);
+app.patch('/api/cards/:id', async (req, res) => {
+  const front = requireString(req.body?.front, 'front', 250);
+  const back = requireString(req.body?.back, 'back', 500);
+  const rawTags = req.body?.tags;
+  if (!Array.isArray(rawTags) || rawTags.length > 12) throw badRequest('Invalid tags');
+  const tags: string[] = [];
+  for (const rawTag of rawTags) {
+    if (typeof rawTag !== 'string' || !rawTag.trim() || rawTag.trim().length > 32 || /[\r\n\t]/u.test(rawTag)) throw badRequest('Invalid tag');
+    const tag = rawTag.trim();
+    if (!tags.some(existing => existing.toLocaleLowerCase() === tag.toLocaleLowerCase())) tags.push(tag);
+  }
+  const card = await updateCard(req.params.id, { front, back, tags });
   if (!card) throw missing('Card not found');
   res.json(card);
 });
@@ -140,12 +148,13 @@ app.use((error: unknown, _req: Request, res: Response, _next: NextFunction) => {
   res.status(status).json({ error: status === 500 ? 'Something went wrong. Check the local server terminal.' : detail.message });
 });
 
-app.listen(3001, '127.0.0.1', (error?: Error) => {
+const port = Number(process.env.PORT || 3001);
+app.listen(port, '127.0.0.1', (error?: Error) => {
   if (error) {
     console.error('Could not start Slovak Teacher API:', error.message);
     process.exitCode = 1;
     return;
   }
-  console.log('Slovak Teacher API listening on http://127.0.0.1:3001');
+  console.log(`Slovak Teacher API listening on http://127.0.0.1:${port}`);
   if (!hasApiKey()) console.log('AI features need OPENAI_API_KEY in .env.local');
 });

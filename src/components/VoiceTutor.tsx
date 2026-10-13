@@ -106,6 +106,7 @@ export default function VoiceTutor({ story, selectedText, question }: VoiceTutor
           outputModalities: ["audio"],
           audio: {
             input: {
+              turnDetection: { type: "server_vad", threshold: 0.75 },
               transcription: {
                 model: "gpt-live-transcribe",
                 prompt: "A Slovak A1 learner talks about a short Slovak story, sometimes asking for an English explanation.",
