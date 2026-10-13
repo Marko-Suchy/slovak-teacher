@@ -1,0 +1,283 @@
+{
+  "id": "v-kniznici",
+  "title": "V knižnici",
+  "topic": "Books and learning",
+  "level": "A1",
+  "estimatedMinutes": 9,
+  "sentences": [
+    {
+      "id": "s1",
+      "sk": "Tomáš má rád knihy a dnes ide do knižnice.",
+      "en": "Tomáš likes books and is going to the library today."
+    },
+    {
+      "id": "s2",
+      "sk": "Knižnica je vedľa školy a otvára sa o desiatej.",
+      "en": "The library is next to the school and opens at ten."
+    },
+    {
+      "id": "s3",
+      "sk": "Tomáš príde krátko po otvorení.",
+      "en": "Tomáš arrives shortly after opening."
+    },
+    {
+      "id": "s4",
+      "sk": "Pri dverách si odloží mokrý dáždnik.",
+      "en": "By the door he puts down his wet umbrella."
+    },
+    {
+      "id": "s5",
+      "sk": "Vonku prší, ale v knižnici je ticho a príjemne.",
+      "en": "It is raining outside, but the library is quiet and pleasant."
+    },
+    {
+      "id": "s6",
+      "sk": "Tomáš chce nájsť jednoduchú knihu o zvieratách.",
+      "en": "Tomáš wants to find an easy book about animals."
+    },
+    {
+      "id": "s7",
+      "sk": "Najprv sa pozrie na police pri okne.",
+      "en": "First he looks at the shelves by the window."
+    },
+    {
+      "id": "s8",
+      "sk": "Vidí knihy o mestách, jedle a cestovaní.",
+      "en": "He sees books about cities, food, and travel."
+    },
+    {
+      "id": "s9",
+      "sk": "Knihy o zvieratách tam však nie sú.",
+      "en": "But the books about animals are not there."
+    },
+    {
+      "id": "s10",
+      "sk": "Tomáš sa opýta knihovníčky, kde ich nájde.",
+      "en": "Tomáš asks the librarian where he can find them."
+    },
+    {
+      "id": "s11",
+      "sk": "Knihovníčka mu ukáže policu na konci miestnosti.",
+      "en": "The librarian shows him a shelf at the end of the room."
+    },
+    {
+      "id": "s12",
+      "sk": "Tomáš si vyberie knihu o vtákoch.",
+      "en": "Tomáš chooses a book about birds."
+    },
+    {
+      "id": "s13",
+      "sk": "Má veľa obrázkov a krátke texty.",
+      "en": "It has many pictures and short texts."
+    },
+    {
+      "id": "s14",
+      "sk": "Sadne si za stôl a prečíta si prvú stranu.",
+      "en": "He sits at a table and reads the first page."
+    },
+    {
+      "id": "s15",
+      "sk": "Kniha sa mu páči, preto si ju chce požičať.",
+      "en": "He likes the book, so he wants to borrow it."
+    },
+    {
+      "id": "s16",
+      "sk": "Pri pulte ukáže svoj čitateľský preukaz.",
+      "en": "At the desk he shows his library card."
+    },
+    {
+      "id": "s17",
+      "sk": "Knihovníčka povie, že knihu môže mať dva týždne.",
+      "en": "The librarian says he may keep the book for two weeks."
+    },
+    {
+      "id": "s18",
+      "sk": "Tomáš jej poďakuje a vloží knihu do tašky.",
+      "en": "Tomáš thanks her and puts the book in his bag."
+    },
+    {
+      "id": "s19",
+      "sk": "Pred odchodom si vezme svoj dáždnik.",
+      "en": "Before leaving he takes his umbrella."
+    },
+    {
+      "id": "s20",
+      "sk": "Doma chce knihu ukázať svojej mladšej sestre.",
+      "en": "At home he wants to show the book to his younger sister."
+    }
+  ],
+  "glossary": [
+    {
+      "surface": "knižnice",
+      "lemma": "knižnica",
+      "partOfSpeech": "noun",
+      "meaning": "library",
+      "note": "Genitive singular after do."
+    },
+    {
+      "surface": "otvára",
+      "lemma": "otvárať sa",
+      "partOfSpeech": "verb",
+      "meaning": "opens",
+      "note": "Third person singular, present tense; sa is part of otvárať sa."
+    },
+    {
+      "surface": "dáždnik",
+      "lemma": "dáždnik",
+      "partOfSpeech": "noun",
+      "meaning": "umbrella",
+      "note": "Masculine noun.",
+      "forms": [
+        {
+          "label": "Singular",
+          "value": "dáždnik"
+        },
+        {
+          "label": "Plural",
+          "value": "dáždniky"
+        }
+      ]
+    },
+    {
+      "surface": "police",
+      "lemma": "polica",
+      "partOfSpeech": "noun",
+      "meaning": "shelves",
+      "note": "Accusative plural of feminine noun polica."
+    },
+    {
+      "surface": "knihovníčky",
+      "lemma": "knihovníčka",
+      "partOfSpeech": "noun",
+      "meaning": "librarian",
+      "note": "Genitive singular after opýtať sa."
+    },
+    {
+      "surface": "vyberie",
+      "lemma": "vybrať",
+      "partOfSpeech": "verb",
+      "meaning": "chooses",
+      "note": "Third person singular.",
+      "forms": [
+        {
+          "label": "Infinitive",
+          "value": "vybrať"
+        },
+        {
+          "label": "I will choose",
+          "value": "vyberiem"
+        },
+        {
+          "label": "He/she will choose",
+          "value": "vyberie"
+        }
+      ]
+    },
+    {
+      "surface": "požičať",
+      "lemma": "požičať si",
+      "partOfSpeech": "verb",
+      "meaning": "borrow",
+      "note": "The reflexive si means borrowing for oneself.",
+      "forms": [
+        {
+          "label": "Infinitive",
+          "value": "požičať si"
+        },
+        {
+          "label": "I will borrow",
+          "value": "požičiam si"
+        },
+        {
+          "label": "He/she will borrow",
+          "value": "požičia si"
+        }
+      ]
+    },
+    {
+      "surface": "čitateľský preukaz",
+      "lemma": "čitateľský preukaz",
+      "partOfSpeech": "noun",
+      "meaning": "library card",
+      "note": "Literally “reader’s card”."
+    },
+    {
+      "surface": "týždne",
+      "lemma": "týždeň",
+      "partOfSpeech": "noun",
+      "meaning": "weeks",
+      "note": "Form used after dva."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "promptSk": "Akú knihu chce Tomáš nájsť?",
+      "options": [
+        {
+          "id": "a",
+          "text": "O zvieratách."
+        },
+        {
+          "id": "b",
+          "text": "O autách."
+        },
+        {
+          "id": "c",
+          "text": "O hudbe."
+        }
+      ],
+      "answerId": "a",
+      "sourceSentenceIds": [
+        "s6"
+      ],
+      "explanationEn": "Tomáš wants a simple book about animals."
+    },
+    {
+      "id": "q2",
+      "promptSk": "Akú knihu si Tomáš vyberie?",
+      "options": [
+        {
+          "id": "a",
+          "text": "O mestách."
+        },
+        {
+          "id": "b",
+          "text": "O vtákoch."
+        },
+        {
+          "id": "c",
+          "text": "O jedle."
+        }
+      ],
+      "answerId": "b",
+      "sourceSentenceIds": [
+        "s12"
+      ],
+      "explanationEn": "He chooses a book about birds."
+    },
+    {
+      "id": "q3",
+      "promptSk": "Ako dlho môže mať knihu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jeden deň."
+        },
+        {
+          "id": "b",
+          "text": "Jeden mesiac."
+        },
+        {
+          "id": "c",
+          "text": "Dva týždne."
+        }
+      ],
+      "answerId": "c",
+      "sourceSentenceIds": [
+        "s17"
+      ],
+      "explanationEn": "The librarian says he may keep it for two weeks."
+    }
+  ]
+}

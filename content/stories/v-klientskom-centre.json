@@ -1,0 +1,244 @@
+{
+  "id": "v-klientskom-centre",
+  "title": "V klientskom centre",
+  "topic": "Citizenship and documents",
+  "level": "A1+",
+  "estimatedMinutes": 12,
+  "sentences": [
+    { "id": "s1", "sk": "Marek cestuje vlakom do Bratislavy.", "en": "Marek travels to Bratislava by train." },
+    { "id": "s2", "sk": "Vyrastal v zahraničí a po slovensky hovorí pomaly.", "en": "He grew up abroad and speaks Slovak slowly." },
+    { "id": "s3", "sk": "Jeho otec bol občanom Slovenskej republiky, keď sa Marek narodil.", "en": "His father was a citizen of the Slovak Republic when Marek was born." },
+    { "id": "s4", "sk": "Marek chce zistiť, ako môže svoje občianstvo úradne preukázať.", "en": "Marek wants to find out how he can officially prove his citizenship." },
+    { "id": "s5", "sk": "Pred klientskym centrom naňho čaká kamarátka Dominika.", "en": "His friend Dominika waits for him outside the client centre." },
+    { "id": "s6", "sk": "Dominika pozná mesto a ide s ním dovnútra.", "en": "Dominika knows the city and goes inside with him." },
+    { "id": "s7", "sk": "Marek má v taške pas, svoj rodný list a otcov rodný list.", "en": "Marek has his passport, his birth certificate, and his father's birth certificate in his bag." },
+    { "id": "s8", "sk": "Doklady má v priečinku, aby ich rýchlo našiel.", "en": "He keeps the documents in a folder so he can find them quickly." },
+    { "id": "s9", "sk": "Pri informačnom pulte sa opýta: „Kde môžem podať žiadosť o vydanie osvedčenia o štátnom občianstve?“", "en": "At the information desk he asks, “Where can I submit an application for a certificate of citizenship?”" },
+    { "id": "s10", "sk": "Pracovník mu ukáže správne oddelenie.", "en": "A staff member shows him the right department." },
+    { "id": "s11", "sk": "Marek si vezme poradové číslo a sadne si vedľa Dominiky.", "en": "Marek takes a queue number and sits down next to Dominika." },
+    { "id": "s12", "sk": "„Čo ak nerozumiem každej otázke?“ spýta sa.", "en": "“What if I don't understand every question?” he asks." },
+    { "id": "s13", "sk": "„Môžeš poprosiť o pomalšie vysvetlenie,“ povie Dominika.", "en": "“You can ask for a slower explanation,” Dominika says." },
+    { "id": "s14", "sk": "Po chvíli sa na obrazovke objaví jeho číslo.", "en": "After a while his number appears on the screen." },
+    { "id": "s15", "sk": "Pri okienku pozdraví úradníčku.", "en": "At the counter he greets the clerk." },
+    { "id": "s16", "sk": "„Chcel by som požiadať o osvedčenie o štátnom občianstve Slovenskej republiky,“ povie.", "en": "“I would like to apply for a certificate of citizenship of the Slovak Republic,” he says." },
+    { "id": "s17", "sk": "„Môj otec bol občanom Slovenskej republiky, keď som sa narodil.“", "en": "“My father was a citizen of the Slovak Republic when I was born.”" },
+    { "id": "s18", "sk": "Úradníčka si pozrie jeho doklad totožnosti a rodný list.", "en": "The clerk looks at his identity document and birth certificate." },
+    { "id": "s19", "sk": "Potom sa spýta na otcove doklady.", "en": "Then she asks about his father's documents." },
+    { "id": "s20", "sk": "Marek jej podá otcov rodný list a vysvetlí, čo o otcovi vie.", "en": "Marek hands her his father's birth certificate and explains what he knows about his father." },
+    { "id": "s21", "sk": "Úradníčka povie, že úrad musí údaje overiť.", "en": "The clerk says the office must verify the information." },
+    { "id": "s22", "sk": "„Možno budeme potrebovať aj ďalšie doklady,“ dodá.", "en": "“We may also need more documents,” she adds." },
+    { "id": "s23", "sk": "Marek sa spýta: „Čo ešte potrebujem priniesť?“", "en": "Marek asks, “What else do I need to bring?”" },
+    { "id": "s24", "sk": "Úradníčka hovorí rýchlo, preto ju Marek poprosí: „Môžete to, prosím, zopakovať pomalšie?“", "en": "The clerk speaks quickly, so Marek asks her, “Could you please repeat that more slowly?”" },
+    { "id": "s25", "sk": "Dominika si zapíše názvy dokladov do telefónu.", "en": "Dominika writes the names of the documents in her phone." },
+    { "id": "s26", "sk": "Marek vyplní žiadosť a skontroluje svoje meno aj dátum narodenia.", "en": "Marek fills in the application and checks his name and date of birth." },
+    { "id": "s27", "sk": "Pýta sa, kedy môže očakávať odpoveď.", "en": "He asks when he can expect a reply." },
+    { "id": "s28", "sk": "Úradníčka vysvetlí, že osvedčenie sa zvyčajne nevydáva hneď.", "en": "The clerk explains that the certificate is not usually issued immediately." },
+    { "id": "s29", "sk": "Marek odchádza bez osvedčenia, ale vie, čo má robiť ďalej.", "en": "Marek leaves without the certificate, but he knows what to do next." },
+    { "id": "s30", "sk": "Dominika navrhne kávu a on sa po náročnom ráne konečne usmeje.", "en": "Dominika suggests coffee, and after a demanding morning he finally smiles." }
+  ],
+  "glossary": [
+    {
+      "surface": "v zahraničí",
+      "lemma": "zahraničie",
+      "partOfSpeech": "phrase",
+      "meaning": "abroad",
+      "note": "Literally 'in a foreign country'; common when describing where someone lived."
+    },
+    {
+      "surface": "klientskym centrom",
+      "lemma": "klientske centrum",
+      "partOfSpeech": "noun phrase",
+      "meaning": "client centre; public service centre",
+      "note": "Instrumental singular after pred (in front of)."
+    },
+    {
+      "surface": "rodný list",
+      "lemma": "rodný list",
+      "partOfSpeech": "noun phrase",
+      "meaning": "birth certificate",
+      "note": "A document recording a person's birth and parentage. This is a document to bring, if the office requires it."
+    },
+    {
+      "surface": "rodný",
+      "lemma": "rodný",
+      "partOfSpeech": "adjective",
+      "meaning": "birth-related; in rodný list, birth certificate",
+      "note": "Used together with list in the official term rodný list."
+    },
+    {
+      "surface": "list",
+      "lemma": "list",
+      "partOfSpeech": "noun",
+      "meaning": "document; in rodný list, birth certificate",
+      "note": "The whole phrase rodný list means birth certificate; list on its own can also mean a sheet or letter."
+    },
+    {
+      "surface": "žiadosť",
+      "lemma": "žiadosť",
+      "partOfSpeech": "noun",
+      "meaning": "application; request",
+      "note": "Feminine noun. Here it means the written application submitted to the office."
+    },
+    {
+      "surface": "osvedčenie o štátnom občianstve",
+      "lemma": "osvedčenie o štátnom občianstve",
+      "partOfSpeech": "noun phrase",
+      "meaning": "certificate of citizenship",
+      "note": "The office issues this certificate to prove citizenship; the applicant requests it rather than bringing it to the appointment."
+    },
+    {
+      "surface": "osvedčenia o štátnom občianstve",
+      "lemma": "osvedčenie o štátnom občianstve",
+      "partOfSpeech": "noun phrase",
+      "meaning": "certificate of citizenship",
+      "note": "Genitive form after vydanie (issuance of); the dictionary form begins osvedčenie."
+    },
+    {
+      "surface": "osvedčenie",
+      "lemma": "osvedčenie",
+      "partOfSpeech": "noun",
+      "meaning": "certificate",
+      "note": "Neuter noun. In this story it is the document issued to prove citizenship."
+    },
+    {
+      "surface": "osvedčenia",
+      "lemma": "osvedčenie",
+      "partOfSpeech": "noun",
+      "meaning": "of the certificate",
+      "note": "Genitive singular after vydanie (issuance of)."
+    },
+    {
+      "surface": "občianstvo",
+      "lemma": "občianstvo",
+      "partOfSpeech": "noun",
+      "meaning": "citizenship",
+      "note": "Dictionary form; Marek wants to prove svoje občianstvo (his citizenship)."
+    },
+    {
+      "surface": "občianstve",
+      "lemma": "občianstvo",
+      "partOfSpeech": "noun",
+      "meaning": "citizenship",
+      "note": "Locative singular after o (about/of) in osvedčenie o štátnom občianstve.",
+      "forms": [
+        { "label": "Dictionary form", "value": "občianstvo" },
+        { "label": "Locative singular", "value": "občianstve" }
+      ]
+    },
+    {
+      "surface": "poradové číslo",
+      "lemma": "poradové číslo",
+      "partOfSpeech": "noun phrase",
+      "meaning": "queue number",
+      "note": "The number showing when it is your turn at the counter."
+    },
+    {
+      "surface": "úradníčku",
+      "lemma": "úradníčka",
+      "partOfSpeech": "noun",
+      "meaning": "clerk; female official",
+      "note": "Accusative singular of úradníčka.",
+      "forms": [
+        { "label": "Dictionary form", "value": "úradníčka" },
+        { "label": "Accusative singular", "value": "úradníčku" }
+      ]
+    },
+    {
+      "surface": "doklad totožnosti",
+      "lemma": "doklad totožnosti",
+      "partOfSpeech": "noun phrase",
+      "meaning": "identity document",
+      "note": "For example, a passport or identity card."
+    },
+    {
+      "surface": "overiť",
+      "lemma": "overiť",
+      "partOfSpeech": "verb",
+      "meaning": "to verify; to check officially",
+      "note": "Infinitive after musí (must)."
+    },
+    {
+      "surface": "ďalšie doklady",
+      "lemma": "ďalšie doklady",
+      "partOfSpeech": "noun phrase",
+      "meaning": "additional documents",
+      "note": "The office may ask for more documents depending on the person's situation."
+    },
+    {
+      "surface": "pomalšie",
+      "lemma": "pomaly",
+      "partOfSpeech": "adverb",
+      "meaning": "more slowly",
+      "note": "Useful in the request Môžete to, prosím, zopakovať pomalšie?"
+    },
+    {
+      "surface": "vyplní",
+      "lemma": "vyplniť",
+      "partOfSpeech": "verb",
+      "meaning": "fills in",
+      "note": "Third person singular; here he fills in the application."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "promptSk": "Prečo ide Marek do klientskeho centra?",
+      "options": [
+        { "id": "a", "text": "Chce si kúpiť cestovný lístok." },
+        { "id": "b", "text": "Chce zistiť, ako preukázať svoje občianstvo." },
+        { "id": "c", "text": "Chce tam stretnúť svojho otca." }
+      ],
+      "answerId": "b",
+      "sourceSentenceIds": ["s4"],
+      "explanationEn": "Marek wants to learn how to officially prove his citizenship."
+    },
+    {
+      "id": "q2",
+      "promptSk": "Kto ide s Marekom do centra?",
+      "options": [
+        { "id": "a", "text": "Jeho otec." },
+        { "id": "b", "text": "Úradníčka." },
+        { "id": "c", "text": "Dominika." }
+      ],
+      "answerId": "c",
+      "sourceSentenceIds": ["s5", "s6"],
+      "explanationEn": "His friend Dominika meets him and goes inside with him."
+    },
+    {
+      "id": "q3",
+      "promptSk": "Čo Marek povie úradníčke o svojom otcovi?",
+      "options": [
+        { "id": "a", "text": "Otec bol občanom Slovenskej republiky, keď sa Marek narodil." },
+        { "id": "b", "text": "Otec pracuje v klientskom centre." },
+        { "id": "c", "text": "Otec dnes čaká pred budovou." }
+      ],
+      "answerId": "a",
+      "sourceSentenceIds": ["s17"],
+      "explanationEn": "Marek says his father was a Slovak citizen when Marek was born."
+    },
+    {
+      "id": "q4",
+      "promptSk": "Čo Marek požiada úradníčku, keď hovorí rýchlo?",
+      "options": [
+        { "id": "a", "text": "Aby hovorila po anglicky." },
+        { "id": "b", "text": "Aby to zopakovala pomalšie." },
+        { "id": "c", "text": "Aby zavolala Dominike." }
+      ],
+      "answerId": "b",
+      "sourceSentenceIds": ["s24"],
+      "explanationEn": "He asks the clerk to repeat the information more slowly."
+    },
+    {
+      "id": "q5",
+      "promptSk": "Dostane Marek osvedčenie hneď?",
+      "options": [
+        { "id": "a", "text": "Áno, pri okienku." },
+        { "id": "b", "text": "Áno, od Dominiky." },
+        { "id": "c", "text": "Nie, ešte musí čakať na výsledok." }
+      ],
+      "answerId": "c",
+      "sourceSentenceIds": ["s28", "s29"],
+      "explanationEn": "The certificate is not normally issued immediately, so Marek leaves without it."
+    }
+  ]
+}

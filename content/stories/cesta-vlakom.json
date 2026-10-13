@@ -1,0 +1,283 @@
+{
+  "id": "cesta-vlakom",
+  "title": "Cesta vlakom",
+  "topic": "Travel and transport",
+  "level": "A1",
+  "estimatedMinutes": 9,
+  "sentences": [
+    {
+      "id": "s1",
+      "sk": "Peter ide v nedeľu navštíviť svojho brata.",
+      "en": "On Sunday Peter goes to visit his brother."
+    },
+    {
+      "id": "s2",
+      "sk": "Jeho brat býva v meste, ktoré je hodinu cesty vlakom.",
+      "en": "His brother lives in a town one hour away by train."
+    },
+    {
+      "id": "s3",
+      "sk": "Peter si ráno kúpi lístok cez telefón.",
+      "en": "Peter buys a ticket on his phone in the morning."
+    },
+    {
+      "id": "s4",
+      "sk": "Na stanici je o desať minút skôr.",
+      "en": "He is at the station ten minutes early."
+    },
+    {
+      "id": "s5",
+      "sk": "Na tabuli hľadá číslo svojho vlaku.",
+      "en": "He looks for his train number on the board."
+    },
+    {
+      "id": "s6",
+      "sk": "Vlak ide z nástupišťa číslo dva.",
+      "en": "The train leaves from platform number two."
+    },
+    {
+      "id": "s7",
+      "sk": "Peter si kúpi malú fľašu vody.",
+      "en": "Peter buys a small bottle of water."
+    },
+    {
+      "id": "s8",
+      "sk": "Potom čaká na lavičke pri nástupišti.",
+      "en": "Then he waits on a bench by the platform."
+    },
+    {
+      "id": "s9",
+      "sk": "Vedľa neho sedí žena s dieťaťom.",
+      "en": "A woman with a child sits next to him."
+    },
+    {
+      "id": "s10",
+      "sk": "Dieťa sa pýta, kedy príde vlak.",
+      "en": "The child asks when the train will arrive."
+    },
+    {
+      "id": "s11",
+      "sk": "Mama dieťaťa ukáže na hodiny nad dverami.",
+      "en": "The child’s mother points to the clock above the door."
+    },
+    {
+      "id": "s12",
+      "sk": "Vlak príde presne o deviatej.",
+      "en": "The train arrives at exactly nine."
+    },
+    {
+      "id": "s13",
+      "sk": "Peter nastúpi a nájde voľné miesto pri okne.",
+      "en": "Peter gets on and finds an empty seat by the window."
+    },
+    {
+      "id": "s14",
+      "sk": "Vonku vidí domy, polia a malé dediny.",
+      "en": "Outside he sees houses, fields, and small villages."
+    },
+    {
+      "id": "s15",
+      "sk": "Počas cesty pošle bratovi krátku správu.",
+      "en": "During the trip he sends his brother a short message."
+    },
+    {
+      "id": "s16",
+      "sk": "Brat mu odpovie, že čaká pred stanicou.",
+      "en": "His brother replies that he is waiting in front of the station."
+    },
+    {
+      "id": "s17",
+      "sk": "O hodinu vlak zastaví v bratovom meste.",
+      "en": "An hour later the train stops in his brother’s town."
+    },
+    {
+      "id": "s18",
+      "sk": "Peter vystúpi a hneď uvidí svojho brata.",
+      "en": "Peter gets off and immediately sees his brother."
+    },
+    {
+      "id": "s19",
+      "sk": "Spolu idú pešo do neďalekej reštaurácie.",
+      "en": "Together they walk to a nearby restaurant."
+    },
+    {
+      "id": "s20",
+      "sk": "Peter sa teší na obed a na spoločné popoludnie.",
+      "en": "Peter looks forward to lunch and an afternoon together."
+    }
+  ],
+  "glossary": [
+    {
+      "surface": "lístok",
+      "lemma": "lístok",
+      "partOfSpeech": "noun",
+      "meaning": "ticket",
+      "note": "Masculine noun; here a train ticket.",
+      "forms": [
+        {
+          "label": "Singular",
+          "value": "lístok"
+        },
+        {
+          "label": "Plural",
+          "value": "lístky"
+        }
+      ]
+    },
+    {
+      "surface": "stanici",
+      "lemma": "stanica",
+      "partOfSpeech": "noun",
+      "meaning": "station",
+      "note": "Locative singular after na."
+    },
+    {
+      "surface": "nástupišťa",
+      "lemma": "nástupište",
+      "partOfSpeech": "noun",
+      "meaning": "platform",
+      "note": "Genitive singular after z."
+    },
+    {
+      "surface": "fľašu",
+      "lemma": "fľaša",
+      "partOfSpeech": "noun",
+      "meaning": "bottle",
+      "note": "Accusative singular."
+    },
+    {
+      "surface": "presne",
+      "lemma": "presne",
+      "partOfSpeech": "adverb",
+      "meaning": "exactly",
+      "note": "Here specifies the arrival time."
+    },
+    {
+      "surface": "nastúpi",
+      "lemma": "nastúpiť",
+      "partOfSpeech": "verb",
+      "meaning": "he gets on",
+      "note": "Used for boarding a vehicle.",
+      "forms": [
+        {
+          "label": "Infinitive",
+          "value": "nastúpiť"
+        },
+        {
+          "label": "I will board",
+          "value": "nastúpim"
+        },
+        {
+          "label": "He/she will board",
+          "value": "nastúpi"
+        }
+      ]
+    },
+    {
+      "surface": "voľné",
+      "lemma": "voľný",
+      "partOfSpeech": "adjective",
+      "meaning": "empty / available",
+      "note": "Neuter form agreeing with miesto."
+    },
+    {
+      "surface": "správu",
+      "lemma": "správa",
+      "partOfSpeech": "noun",
+      "meaning": "message",
+      "note": "Accusative singular."
+    },
+    {
+      "surface": "vystúpi",
+      "lemma": "vystúpiť",
+      "partOfSpeech": "verb",
+      "meaning": "he gets off",
+      "note": "Used for leaving a vehicle.",
+      "forms": [
+        {
+          "label": "Infinitive",
+          "value": "vystúpiť"
+        },
+        {
+          "label": "I will get off",
+          "value": "vystúpim"
+        },
+        {
+          "label": "He/she will get off",
+          "value": "vystúpi"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "promptSk": "Z ktorého nástupišťa ide vlak?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Z nástupišťa číslo dva."
+        },
+        {
+          "id": "b",
+          "text": "Z nástupišťa číslo tri."
+        },
+        {
+          "id": "c",
+          "text": "Z nástupišťa číslo päť."
+        }
+      ],
+      "answerId": "a",
+      "sourceSentenceIds": [
+        "s6"
+      ],
+      "explanationEn": "The train leaves from platform two."
+    },
+    {
+      "id": "q2",
+      "promptSk": "Kde Peter sedí vo vlaku?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pri dverách."
+        },
+        {
+          "id": "b",
+          "text": "Pri okne."
+        },
+        {
+          "id": "c",
+          "text": "V reštaurácii."
+        }
+      ],
+      "answerId": "b",
+      "sourceSentenceIds": [
+        "s13"
+      ],
+      "explanationEn": "Peter finds a seat by the window."
+    },
+    {
+      "id": "q3",
+      "promptSk": "Kto čaká pred stanicou?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mama."
+        },
+        {
+          "id": "b",
+          "text": "Dieťa."
+        },
+        {
+          "id": "c",
+          "text": "Petrov brat."
+        }
+      ],
+      "answerId": "c",
+      "sourceSentenceIds": [
+        "s16"
+      ],
+      "explanationEn": "Peter’s brother says he is waiting in front of the station."
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "id": "popoludnie-v-parku",
+  "title": "Popoludnie v parku",
+  "topic": "Weather and leisure",
+  "level": "A1",
+  "estimatedMinutes": 9,
+  "sentences": [
+    {
+      "id": "s1",
+      "sk": "Dnes je teplé popoludnie a Nina má voľno.",
+      "en": "It is a warm afternoon, and Nina has time off."
+    },
+    {
+      "id": "s2",
+      "sk": "Rozhodne sa ísť so svojím psom do parku.",
+      "en": "She decides to go to the park with her dog."
+    },
+    {
+      "id": "s3",
+      "sk": "Pes sa volá Max a má rád dlhé prechádzky.",
+      "en": "The dog is called Max, and he likes long walks."
+    },
+    {
+      "id": "s4",
+      "sk": "Nina si vezme vodu, loptu a malú tašku.",
+      "en": "Nina takes water, a ball, and a small bag."
+    },
+    {
+      "id": "s5",
+      "sk": "Park je len päť minút od jej domu.",
+      "en": "The park is only five minutes from her house."
+    },
+    {
+      "id": "s6",
+      "sk": "Pri vchode vidí veľké stromy a veľa kvetov.",
+      "en": "At the entrance she sees large trees and many flowers."
+    },
+    {
+      "id": "s7",
+      "sk": "Deti sa hrajú na ihrisku.",
+      "en": "Children are playing on the playground."
+    },
+    {
+      "id": "s8",
+      "sk": "Max chce bežať za loptou, ale Nina ho najprv napojí.",
+      "en": "Max wants to run after the ball, but Nina gives him water first."
+    },
+    {
+      "id": "s9",
+      "sk": "Potom mu hodí loptu na trávu.",
+      "en": "Then she throws him the ball onto the grass."
+    },
+    {
+      "id": "s10",
+      "sk": "Max beží rýchlo a prinesie loptu späť.",
+      "en": "Max runs quickly and brings the ball back."
+    },
+    {
+      "id": "s11",
+      "sk": "Nina sa usmeje a znova mu ju hodí.",
+      "en": "Nina smiles and throws it to him again."
+    },
+    {
+      "id": "s12",
+      "sk": "Po chvíli si sadnú do tieňa pod stromom.",
+      "en": "After a while they sit in the shade under a tree."
+    },
+    {
+      "id": "s13",
+      "sk": "Nina počuje vtáky a číta si krátky článok.",
+      "en": "Nina hears birds and reads a short article."
+    },
+    {
+      "id": "s14",
+      "sk": "Vedľa nej sedí pán s malým bielym psom.",
+      "en": "A man with a small white dog sits next to her."
+    },
+    {
+      "id": "s15",
+      "sk": "Obaja sa rozprávajú o svojich psoch.",
+      "en": "They both talk about their dogs."
+    },
+    {
+      "id": "s16",
+      "sk": "Pán povie, že do parku chodí každý deň.",
+      "en": "The man says he comes to the park every day."
+    },
+    {
+      "id": "s17",
+      "sk": "Max a biely pes sa spolu pokojne hrajú.",
+      "en": "Max and the white dog play together calmly."
+    },
+    {
+      "id": "s18",
+      "sk": "Keď sa začne stmievať, Nina ide domov.",
+      "en": "When it starts getting dark, Nina goes home."
+    },
+    {
+      "id": "s19",
+      "sk": "Max je unavený, ale vyzerá spokojne.",
+      "en": "Max is tired, but he looks content."
+    },
+    {
+      "id": "s20",
+      "sk": "Nina mu doma pripraví večeru a čerstvú vodu.",
+      "en": "At home Nina prepares dinner and fresh water for him."
+    }
+  ],
+  "glossary": [
+    {
+      "surface": "voľno",
+      "lemma": "voľno",
+      "partOfSpeech": "noun",
+      "meaning": "time off",
+      "note": "Neuter noun; free time away from work."
+    },
+    {
+      "surface": "prechádzky",
+      "lemma": "prechádzka",
+      "partOfSpeech": "noun",
+      "meaning": "walks",
+      "note": "Plural of feminine noun prechádzka.",
+      "forms": [
+        {
+          "label": "Singular",
+          "value": "prechádzka"
+        },
+        {
+          "label": "Accusative singular",
+          "value": "prechádzku"
+        },
+        {
+          "label": "Plural",
+          "value": "prechádzky"
+        }
+      ]
+    },
+    {
+      "surface": "ihrisku",
+      "lemma": "ihrisko",
+      "partOfSpeech": "noun",
+      "meaning": "playground",
+      "note": "Locative singular after na."
+    },
+    {
+      "surface": "napojí",
+      "lemma": "napojiť",
+      "partOfSpeech": "verb",
+      "meaning": "gives water to",
+      "note": "Here she gives water to her dog."
+    },
+    {
+      "surface": "hodí",
+      "lemma": "hodiť",
+      "partOfSpeech": "verb",
+      "meaning": "throws",
+      "note": "Third person singular.",
+      "forms": [
+        {
+          "label": "Infinitive",
+          "value": "hodiť"
+        },
+        {
+          "label": "I will throw",
+          "value": "hodím"
+        },
+        {
+          "label": "He/she will throw",
+          "value": "hodí"
+        }
+      ]
+    },
+    {
+      "surface": "trávu",
+      "lemma": "tráva",
+      "partOfSpeech": "noun",
+      "meaning": "grass",
+      "note": "Accusative singular after directional na."
+    },
+    {
+      "surface": "tieňa",
+      "lemma": "tieň",
+      "partOfSpeech": "noun",
+      "meaning": "shade",
+      "note": "Genitive singular after do."
+    },
+    {
+      "surface": "vtáky",
+      "lemma": "vták",
+      "partOfSpeech": "noun",
+      "meaning": "birds",
+      "note": "Accusative plural of masculine noun vták; it is the object of počuje.",
+      "forms": [
+        {
+          "label": "Singular",
+          "value": "vták"
+        },
+        {
+          "label": "Plural",
+          "value": "vtáky"
+        }
+      ]
+    },
+    {
+      "surface": "spokojne",
+      "lemma": "spokojne",
+      "partOfSpeech": "adverb",
+      "meaning": "contentedly / with satisfaction",
+      "note": "Here, vyzerá spokojne means he looks content."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "promptSk": "Ako sa volá Ninin pes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Max."
+        },
+        {
+          "id": "b",
+          "text": "Miro."
+        },
+        {
+          "id": "c",
+          "text": "Belo."
+        }
+      ],
+      "answerId": "a",
+      "sourceSentenceIds": [
+        "s3"
+      ],
+      "explanationEn": "Nina’s dog is called Max."
+    },
+    {
+      "id": "q2",
+      "promptSk": "Čo Nina hodí Maxovi?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vodu."
+        },
+        {
+          "id": "b",
+          "text": "Loptu."
+        },
+        {
+          "id": "c",
+          "text": "Tašku."
+        }
+      ],
+      "answerId": "b",
+      "sourceSentenceIds": [
+        "s9"
+      ],
+      "explanationEn": "Nina throws Max a ball."
+    },
+    {
+      "id": "q3",
+      "promptSk": "Kedy Nina ide domov?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ráno."
+        },
+        {
+          "id": "b",
+          "text": "Na obed."
+        },
+        {
+          "id": "c",
+          "text": "Keď sa začne stmievať."
+        }
+      ],
+      "answerId": "c",
+      "sourceSentenceIds": [
+        "s18"
+      ],
+      "explanationEn": "She goes home when it begins to get dark."
+    }
+  ]
+}

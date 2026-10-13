@@ -1,0 +1,279 @@
+{
+  "id": "rano-pred-pracou",
+  "title": "Ráno pred prácou",
+  "topic": "Daily routine",
+  "level": "A1",
+  "estimatedMinutes": 9,
+  "sentences": [
+    {
+      "id": "s1",
+      "sk": "Volám sa Eva a bývam v malom byte v meste.",
+      "en": "My name is Eva, and I live in a small apartment in the city."
+    },
+    {
+      "id": "s2",
+      "sk": "Každé ráno vstávam o siedmej.",
+      "en": "Every morning I get up at seven."
+    },
+    {
+      "id": "s3",
+      "sk": "Najprv otvorím okno a pozriem sa von.",
+      "en": "First I open the window and look outside."
+    },
+    {
+      "id": "s4",
+      "sk": "Dnes svieti slnko, ale vonku je ešte chladno.",
+      "en": "Today the sun is shining, but it is still chilly outside."
+    },
+    {
+      "id": "s5",
+      "sk": "V kuchyni si pripravím čaj a chlieb so syrom.",
+      "en": "In the kitchen I make tea and bread with cheese."
+    },
+    {
+      "id": "s6",
+      "sk": "Moja mačka Mica čaká pri dverách.",
+      "en": "My cat Mica waits by the door."
+    },
+    {
+      "id": "s7",
+      "sk": "Dám jej jedlo a čerstvú vodu.",
+      "en": "I give her food and fresh water."
+    },
+    {
+      "id": "s8",
+      "sk": "Potom sa umyjem a oblečiem si modrý sveter.",
+      "en": "Then I wash and put on a blue sweater."
+    },
+    {
+      "id": "s9",
+      "sk": "Na stole ležia môj telefón a kľúče.",
+      "en": "My phone and keys are on the table."
+    },
+    {
+      "id": "s10",
+      "sk": "Telefón mám, ale kľúče nevidím.",
+      "en": "I have my phone, but I cannot see my keys."
+    },
+    {
+      "id": "s11",
+      "sk": "Hľadám ich v kuchyni aj v izbe.",
+      "en": "I look for them in the kitchen and in the room."
+    },
+    {
+      "id": "s12",
+      "sk": "Nakoniec ich nájdem vedľa knihy.",
+      "en": "Finally I find them next to a book."
+    },
+    {
+      "id": "s13",
+      "sk": "Je už osem hodín, preto sa ponáhľam.",
+      "en": "It is already eight o’clock, so I am in a hurry."
+    },
+    {
+      "id": "s14",
+      "sk": "Z bytu idem pešo na zastávku.",
+      "en": "I walk from the apartment to the bus stop."
+    },
+    {
+      "id": "s15",
+      "sk": "Cestou stretnem susedu pani Novákovú.",
+      "en": "On the way I meet my neighbor, Mrs. Nováková."
+    },
+    {
+      "id": "s16",
+      "sk": "Pozdravím ju a spýtam sa, ako sa má.",
+      "en": "I greet her and ask how she is."
+    },
+    {
+      "id": "s17",
+      "sk": "Hovorí, že sa má dobre, a želá mi pekný deň.",
+      "en": "She says she is well and wishes me a nice day."
+    },
+    {
+      "id": "s18",
+      "sk": "Na zastávke čaká veľa ľudí, no autobus príde skoro.",
+      "en": "Many people are waiting at the stop, but the bus arrives soon."
+    },
+    {
+      "id": "s19",
+      "sk": "Sadnem si k oknu a pozerám sa na ulice.",
+      "en": "I sit by the window and look at the streets."
+    }
+  ],
+  "glossary": [
+    {
+      "surface": "vstávam",
+      "lemma": "vstávať",
+      "partOfSpeech": "verb",
+      "meaning": "I get up",
+      "note": "Present tense, first person singular.",
+      "forms": [
+        {
+          "label": "Infinitive",
+          "value": "vstávať"
+        },
+        {
+          "label": "I get up",
+          "value": "vstávam"
+        },
+        {
+          "label": "He/she gets up",
+          "value": "vstáva"
+        }
+      ]
+    },
+    {
+      "surface": "chladno",
+      "lemma": "chladno",
+      "partOfSpeech": "adverb",
+      "meaning": "chilly",
+      "note": "Used with je to describe cold weather."
+    },
+    {
+      "surface": "čerstvú",
+      "lemma": "čerstvý",
+      "partOfSpeech": "adjective",
+      "meaning": "fresh",
+      "note": "Feminine accusative form, agreeing with vodu."
+    },
+    {
+      "surface": "kľúče",
+      "lemma": "kľúč",
+      "partOfSpeech": "noun",
+      "meaning": "keys",
+      "note": "Plural of masculine noun kľúč.",
+      "forms": [
+        {
+          "label": "Singular",
+          "value": "kľúč"
+        },
+        {
+          "label": "Plural",
+          "value": "kľúče"
+        }
+      ]
+    },
+    {
+      "surface": "hľadám",
+      "lemma": "hľadať",
+      "partOfSpeech": "verb",
+      "meaning": "I look for",
+      "note": "Present tense, first person singular.",
+      "forms": [
+        {
+          "label": "Infinitive",
+          "value": "hľadať"
+        },
+        {
+          "label": "I look for",
+          "value": "hľadám"
+        },
+        {
+          "label": "He/she looks for",
+          "value": "hľadá"
+        }
+      ]
+    },
+    {
+      "surface": "vedľa",
+      "lemma": "vedľa",
+      "partOfSpeech": "preposition",
+      "meaning": "next to",
+      "note": "Used with the genitive case: vedľa knihy."
+    },
+    {
+      "surface": "ponáhľam",
+      "lemma": "ponáhľať sa",
+      "partOfSpeech": "verb",
+      "meaning": "I am in a hurry",
+      "note": "Present tense, first person singular; used with sa."
+    },
+    {
+      "surface": "pešo",
+      "lemma": "pešo",
+      "partOfSpeech": "adverb",
+      "meaning": "on foot",
+      "note": "Describes walking rather than taking transport."
+    },
+    {
+      "surface": "zastávku",
+      "lemma": "zastávka",
+      "partOfSpeech": "noun",
+      "meaning": "bus stop",
+      "note": "Accusative singular after the direction preposition na."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "promptSk": "Kedy Eva vstáva?",
+      "options": [
+        {
+          "id": "a",
+          "text": "O siedmej."
+        },
+        {
+          "id": "b",
+          "text": "O ôsmej."
+        },
+        {
+          "id": "c",
+          "text": "O deviatej."
+        }
+      ],
+      "answerId": "a",
+      "sourceSentenceIds": [
+        "s2"
+      ],
+      "explanationEn": "Eva says she gets up at seven."
+    },
+    {
+      "id": "q2",
+      "promptSk": "Kde Eva nájde kľúče?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pri dverách."
+        },
+        {
+          "id": "b",
+          "text": "Vedľa knihy."
+        },
+        {
+          "id": "c",
+          "text": "Na zastávke."
+        }
+      ],
+      "answerId": "b",
+      "sourceSentenceIds": [
+        "s10",
+        "s12"
+      ],
+      "explanationEn": "She finally finds the keys next to a book."
+    },
+    {
+      "id": "q3",
+      "promptSk": "Ako ide Eva na zastávku?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Autom."
+        },
+        {
+          "id": "b",
+          "text": "Autobusom."
+        },
+        {
+          "id": "c",
+          "text": "Pešo."
+        }
+      ],
+      "answerId": "c",
+      "sourceSentenceIds": [
+        "s14"
+      ],
+      "explanationEn": "She walks to the stop."
+    }
+  ]
+}

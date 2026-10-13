@@ -1,0 +1,287 @@
+{
+  "id": "navsteva-u-kamaratky",
+  "title": "Návšteva u kamarátky",
+  "topic": "Friends and home",
+  "level": "A1",
+  "estimatedMinutes": 9,
+  "sentences": [
+    {
+      "id": "s1",
+      "sk": "V piatok večer ide Zuzana ku kamarátke Márii.",
+      "en": "On Friday evening Zuzana goes to visit her friend Mária."
+    },
+    {
+      "id": "s2",
+      "sk": "Mária býva v novom byte na druhej strane mesta.",
+      "en": "Mária lives in a new apartment on the other side of town."
+    },
+    {
+      "id": "s3",
+      "sk": "Zuzana ide autobusom a vystúpi pri pošte.",
+      "en": "Zuzana takes the bus and gets off by the post office."
+    },
+    {
+      "id": "s4",
+      "sk": "Mária jej otvorí dvere a srdečne ju privíta.",
+      "en": "Mária opens the door and warmly welcomes her."
+    },
+    {
+      "id": "s5",
+      "sk": "Byt je svetlý a má veľkú obývaciu izbu.",
+      "en": "The apartment is bright and has a large living room."
+    },
+    {
+      "id": "s6",
+      "sk": "Na stene visí obrázok starého mesta.",
+      "en": "A picture of the old town hangs on the wall."
+    },
+    {
+      "id": "s7",
+      "sk": "Zuzana sa spýta, kde Mária kúpila ten obrázok.",
+      "en": "Zuzana asks where Mária bought the picture."
+    },
+    {
+      "id": "s8",
+      "sk": "Mária povie, že obrázok dostala ako dar od svojej sestry.",
+      "en": "Mária says she got the picture as a gift from her sister."
+    },
+    {
+      "id": "s9",
+      "sk": "V kuchyni už vonia zeleninová polievka.",
+      "en": "Vegetable soup already smells good in the kitchen."
+    },
+    {
+      "id": "s10",
+      "sk": "Mária pripravila aj ryžu a pečenú zeleninu.",
+      "en": "Mária also prepared rice and roasted vegetables."
+    },
+    {
+      "id": "s11",
+      "sk": "Zuzana prinesie malý koláč s jablkami.",
+      "en": "Zuzana brings a small apple cake."
+    },
+    {
+      "id": "s12",
+      "sk": "Obe kamarátky si sadnú k stolu.",
+      "en": "Both friends sit down at the table."
+    },
+    {
+      "id": "s13",
+      "sk": "Najprv jedia polievku a rozprávajú sa o práci.",
+      "en": "First they eat soup and talk about work."
+    },
+    {
+      "id": "s14",
+      "sk": "Potom si dajú ryžu so zeleninou.",
+      "en": "Then they have rice with vegetables."
+    },
+    {
+      "id": "s15",
+      "sk": "Jedlo je chutné a Zuzana Márii poďakuje.",
+      "en": "The food is tasty, and Zuzana thanks Mária."
+    },
+    {
+      "id": "s16",
+      "sk": "Po večeri si dajú čaj a kúsok koláča.",
+      "en": "After dinner they have tea and a piece of cake."
+    },
+    {
+      "id": "s17",
+      "sk": "Mária ukáže Zuzane fotografie z výletu.",
+      "en": "Mária shows Zuzana photos from a trip."
+    },
+    {
+      "id": "s18",
+      "sk": "Zuzana sa teší, že spolu môžu tráviť čas.",
+      "en": "Zuzana is glad they can spend time together."
+    },
+    {
+      "id": "s19",
+      "sk": "Pred odchodom jej Mária požičia zaujímavú knihu.",
+      "en": "Before Zuzana leaves, Mária lends her an interesting book."
+    },
+    {
+      "id": "s20",
+      "sk": "Zuzana sľúbi, že príde znova budúci týždeň.",
+      "en": "Zuzana promises to come again next week."
+    }
+  ],
+  "glossary": [
+    {
+      "surface": "vystúpi",
+      "lemma": "vystúpiť",
+      "partOfSpeech": "verb",
+      "meaning": "gets off",
+      "note": "Used for leaving a bus or train.",
+      "forms": [
+        {
+          "label": "Infinitive",
+          "value": "vystúpiť"
+        },
+        {
+          "label": "I will get off",
+          "value": "vystúpim"
+        },
+        {
+          "label": "He/she will get off",
+          "value": "vystúpi"
+        }
+      ]
+    },
+    {
+      "surface": "privíta",
+      "lemma": "privítať",
+      "partOfSpeech": "verb",
+      "meaning": "welcomes",
+      "note": "Third person singular."
+    },
+    {
+      "surface": "obývaciu izbu",
+      "lemma": "obývacia izba",
+      "partOfSpeech": "noun",
+      "meaning": "living room",
+      "note": "Accusative singular noun phrase."
+    },
+    {
+      "surface": "obrázok",
+      "lemma": "obrázok",
+      "partOfSpeech": "noun",
+      "meaning": "picture",
+      "note": "Masculine noun."
+    },
+    {
+      "surface": "dar",
+      "lemma": "dar",
+      "partOfSpeech": "noun",
+      "meaning": "gift",
+      "note": "Masculine noun."
+    },
+    {
+      "surface": "polievka",
+      "lemma": "polievka",
+      "partOfSpeech": "noun",
+      "meaning": "soup",
+      "note": "Feminine noun.",
+      "forms": [
+        {
+          "label": "Singular",
+          "value": "polievka"
+        },
+        {
+          "label": "Accusative singular",
+          "value": "polievku"
+        },
+        {
+          "label": "Plural",
+          "value": "polievky"
+        }
+      ]
+    },
+    {
+      "surface": "pečenú",
+      "lemma": "pečený",
+      "partOfSpeech": "adjective",
+      "meaning": "roasted",
+      "note": "Feminine accusative form agreeing with zeleninu."
+    },
+    {
+      "surface": "požičia",
+      "lemma": "požičať",
+      "partOfSpeech": "verb",
+      "meaning": "lends",
+      "note": "Third person singular; Mária lends the book.",
+      "forms": [
+        {
+          "label": "Infinitive",
+          "value": "požičať"
+        },
+        {
+          "label": "I will lend",
+          "value": "požičiam"
+        },
+        {
+          "label": "He/she will lend",
+          "value": "požičia"
+        }
+      ]
+    },
+    {
+      "surface": "sľúbi",
+      "lemma": "sľúbiť",
+      "partOfSpeech": "verb",
+      "meaning": "promises",
+      "note": "Third person singular."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "promptSk": "Čím ide Zuzana k Márii?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Autobusom."
+        },
+        {
+          "id": "b",
+          "text": "Vlakom."
+        },
+        {
+          "id": "c",
+          "text": "Pešo."
+        }
+      ],
+      "answerId": "a",
+      "sourceSentenceIds": [
+        "s3"
+      ],
+      "explanationEn": "Zuzana travels by bus."
+    },
+    {
+      "id": "q2",
+      "promptSk": "Čo prinesie Zuzana?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kvety."
+        },
+        {
+          "id": "b",
+          "text": "Koláč s jablkami."
+        },
+        {
+          "id": "c",
+          "text": "Polievku."
+        }
+      ],
+      "answerId": "b",
+      "sourceSentenceIds": [
+        "s11"
+      ],
+      "explanationEn": "Zuzana brings an apple cake."
+    },
+    {
+      "id": "q3",
+      "promptSk": "Čo Mária požičia Zuzane?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fotografiu."
+        },
+        {
+          "id": "b",
+          "text": "Tanier."
+        },
+        {
+          "id": "c",
+          "text": "Knihu."
+        }
+      ],
+      "answerId": "c",
+      "sourceSentenceIds": [
+        "s19"
+      ],
+      "explanationEn": "Mária lends Zuzana a book."
+    }
+  ]
+}

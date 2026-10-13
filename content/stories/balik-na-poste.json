@@ -1,0 +1,165 @@
+{
+  "id": "balik-na-poste",
+  "title": "Balík na pošte",
+  "topic": "Post and everyday errands",
+  "level": "A1",
+  "estimatedMinutes": 9,
+  "sentences": [
+    { "id": "s1", "sk": "V pondelok popoludní ide Anna na poštu.", "en": "On Monday afternoon Anna goes to the post office." },
+    { "id": "s2", "sk": "V taške má malý balík pre svoju sestru.", "en": "She has a small parcel for her sister in her bag." },
+    { "id": "s3", "sk": "Sestra býva v inom meste a budúci týždeň má narodeniny.", "en": "Her sister lives in another town and has a birthday next week." },
+    { "id": "s4", "sk": "Anna jej chce poslať knihu a pohľadnicu.", "en": "Anna wants to send her a book and a postcard." },
+    { "id": "s5", "sk": "Pred poštou stojí niekoľko ľudí.", "en": "Several people are standing in front of the post office." },
+    { "id": "s6", "sk": "Anna vojde dnu a vezme si číslo.", "en": "Anna goes inside and takes a number." },
+    { "id": "s7", "sk": "Na obrazovke vidí číslo dvadsaťtri.", "en": "She sees the number twenty-three on the screen." },
+    { "id": "s8", "sk": "Anna má číslo dvadsaťpäť, preto chvíľu čaká.", "en": "Anna has number twenty-five, so she waits a little while." },
+    { "id": "s9", "sk": "Potom príde k okienku a pozdraví pracovníčku.", "en": "Then she goes to the counter and greets the postal worker." },
+    { "id": "s10", "sk": "Povie: „Chcem poslať tento balík do Košíc.“", "en": "She says, “I want to send this parcel to Košice.”" },
+    { "id": "s11", "sk": "Pracovníčka sa spýta na adresu.", "en": "The postal worker asks for the address." },
+    { "id": "s12", "sk": "Anna napíše adresu na balík.", "en": "Anna writes the address on the parcel." },
+    { "id": "s13", "sk": "Potom položí balík na váhu.", "en": "Then she puts the parcel on the scale." },
+    { "id": "s14", "sk": "Pracovníčka povie, že poštovné stojí štyri eurá.", "en": "The postal worker says that postage costs four euros." },
+    { "id": "s15", "sk": "Anna zaplatí kartou a dostane potvrdenie.", "en": "Anna pays by card and gets a receipt." },
+    { "id": "s16", "sk": "Na potvrdení je číslo balíka.", "en": "The parcel number is on the receipt." },
+    { "id": "s17", "sk": "Anna si potvrdenie dá do peňaženky.", "en": "Anna puts the receipt in her wallet." },
+    { "id": "s18", "sk": "Vonku zavolá sestre, ale o balíku jej nič nepovie.", "en": "Outside she calls her sister, but she says nothing to her about the parcel." },
+    { "id": "s19", "sk": "Chce, aby to bolo prekvapenie.", "en": "She wants it to be a surprise." },
+    { "id": "s20", "sk": "Sestra sa poteší, keď balík dostane.", "en": "Her sister will be happy when she receives the parcel." }
+  ],
+  "glossary": [
+    {
+      "surface": "balík",
+      "lemma": "balík",
+      "partOfSpeech": "noun",
+      "meaning": "parcel; package",
+      "note": "Masculine noun for a parcel sent through the post.",
+      "forms": [
+        { "label": "Dictionary form", "value": "balík" },
+        { "label": "Genitive singular", "value": "balíka" },
+        { "label": "Plural", "value": "balíky" }
+      ]
+    },
+    {
+      "surface": "pohľadnicu",
+      "lemma": "pohľadnica",
+      "partOfSpeech": "noun",
+      "meaning": "postcard",
+      "note": "Accusative singular of the feminine noun pohľadnica.",
+      "forms": [
+        { "label": "Dictionary form", "value": "pohľadnica" },
+        { "label": "Accusative singular", "value": "pohľadnicu" }
+      ]
+    },
+    {
+      "surface": "vezme",
+      "lemma": "vziať",
+      "partOfSpeech": "verb",
+      "meaning": "takes",
+      "note": "Here Anna takes a queue number. This perfective verb has future meaning in the present-shaped form.",
+      "forms": [
+        { "label": "Infinitive", "value": "vziať" },
+        { "label": "I will take", "value": "vezmem" },
+        { "label": "He/she will take", "value": "vezme" }
+      ]
+    },
+    {
+      "surface": "okienku",
+      "lemma": "okienko",
+      "partOfSpeech": "noun",
+      "meaning": "service window; counter",
+      "note": "Dative singular after k (to or toward).",
+      "forms": [
+        { "label": "Dictionary form", "value": "okienko" },
+        { "label": "Dative singular", "value": "okienku" }
+      ]
+    },
+    {
+      "surface": "adresu",
+      "lemma": "adresa",
+      "partOfSpeech": "noun",
+      "meaning": "address",
+      "note": "Accusative singular of the feminine noun adresa.",
+      "forms": [
+        { "label": "Dictionary form", "value": "adresa" },
+        { "label": "Accusative singular", "value": "adresu" }
+      ]
+    },
+    {
+      "surface": "váhu",
+      "lemma": "váha",
+      "partOfSpeech": "noun",
+      "meaning": "scale",
+      "note": "Accusative singular; here it means the scale used to weigh the parcel."
+    },
+    {
+      "surface": "poštovné",
+      "lemma": "poštovné",
+      "partOfSpeech": "noun",
+      "meaning": "postage",
+      "note": "Neuter noun for the cost of sending something by post."
+    },
+    {
+      "surface": "potvrdenie",
+      "lemma": "potvrdenie",
+      "partOfSpeech": "noun",
+      "meaning": "receipt; confirmation",
+      "note": "Neuter noun; here it is the receipt from the post office."
+    },
+    {
+      "surface": "peňaženky",
+      "lemma": "peňaženka",
+      "partOfSpeech": "noun",
+      "meaning": "wallet",
+      "note": "Genitive singular after do (into).",
+      "forms": [
+        { "label": "Dictionary form", "value": "peňaženka" },
+        { "label": "Genitive singular", "value": "peňaženky" }
+      ]
+    },
+    {
+      "surface": "prekvapenie",
+      "lemma": "prekvapenie",
+      "partOfSpeech": "noun",
+      "meaning": "surprise",
+      "note": "Neuter noun. Anna wants the parcel to surprise her sister."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "promptSk": "Čo chce Anna poslať sestre?",
+      "options": [
+        { "id": "a", "text": "Knihu a pohľadnicu." },
+        { "id": "b", "text": "Topánky a kvety." },
+        { "id": "c", "text": "Jedlo a vodu." }
+      ],
+      "answerId": "a",
+      "sourceSentenceIds": ["s4"],
+      "explanationEn": "Anna wants to send her sister a book and a postcard."
+    },
+    {
+      "id": "q2",
+      "promptSk": "Koľko stojí poštovné?",
+      "options": [
+        { "id": "a", "text": "Dve eurá." },
+        { "id": "b", "text": "Štyri eurá." },
+        { "id": "c", "text": "Päť eur." }
+      ],
+      "answerId": "b",
+      "sourceSentenceIds": ["s14"],
+      "explanationEn": "The postal worker says that postage costs four euros."
+    },
+    {
+      "id": "q3",
+      "promptSk": "Prečo Anna sestre o balíku nič nepovie?",
+      "options": [
+        { "id": "a", "text": "Balík ešte nemá adresu." },
+        { "id": "b", "text": "Anna zabudla, čo je v balíku." },
+        { "id": "c", "text": "Chce, aby to bolo prekvapenie." }
+      ],
+      "answerId": "c",
+      "sourceSentenceIds": ["s18", "s19"],
+      "explanationEn": "Anna keeps the parcel secret because she wants it to be a surprise."
+    }
+  ]
+}

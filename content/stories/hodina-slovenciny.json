@@ -1,0 +1,283 @@
+{
+  "id": "hodina-slovenciny",
+  "title": "Hodina slovenčiny",
+  "topic": "Language learning",
+  "level": "A1",
+  "estimatedMinutes": 9,
+  "sentences": [
+    {
+      "id": "s1",
+      "sk": "Adam sa učí po slovensky a v stredu má hodinu.",
+      "en": "Adam is learning Slovak and has a lesson on Wednesday."
+    },
+    {
+      "id": "s2",
+      "sk": "Jeho učiteľka sa volá pani Kováčová.",
+      "en": "His teacher is called Mrs. Kováčová."
+    },
+    {
+      "id": "s3",
+      "sk": "Na začiatku hodiny sa ho spýta, ako sa má.",
+      "en": "At the beginning of the lesson she asks how he is."
+    },
+    {
+      "id": "s4",
+      "sk": "Adam povie, že sa má dobre, ale je trochu unavený.",
+      "en": "Adam says he is well but a little tired."
+    },
+    {
+      "id": "s5",
+      "sk": "Učiteľka mu dá krátky text o rodine.",
+      "en": "The teacher gives him a short text about a family."
+    },
+    {
+      "id": "s6",
+      "sk": "Adam číta pomaly a nahlas.",
+      "en": "Adam reads slowly and aloud."
+    },
+    {
+      "id": "s7",
+      "sk": "V texte je slovo, ktorému nerozumie.",
+      "en": "There is a word in the text that he does not understand."
+    },
+    {
+      "id": "s8",
+      "sk": "Spýta sa učiteľky, čo znamená slovo „súrodenec“.",
+      "en": "He asks the teacher what the word “sibling” means."
+    },
+    {
+      "id": "s9",
+      "sk": "Učiteľka vysvetlí, že súrodenec je brat alebo sestra.",
+      "en": "The teacher explains that a sibling is a brother or sister."
+    },
+    {
+      "id": "s10",
+      "sk": "Adam má jednu sestru, preto si slovo ľahko zapamätá.",
+      "en": "Adam has one sister, so he remembers the word easily."
+    },
+    {
+      "id": "s11",
+      "sk": "Potom spolu hovoria o Adamovej rodine.",
+      "en": "Then they talk together about Adam’s family."
+    },
+    {
+      "id": "s12",
+      "sk": "Adam povie, kde bývajú jeho rodičia.",
+      "en": "Adam says where his parents live."
+    },
+    {
+      "id": "s13",
+      "sk": "Učiteľka mu pomôže s výslovnosťou dlhých slov.",
+      "en": "The teacher helps him pronounce long words."
+    },
+    {
+      "id": "s14",
+      "sk": "Adam zopakuje každé nové slovo dvakrát.",
+      "en": "Adam repeats each new word twice."
+    },
+    {
+      "id": "s15",
+      "sk": "Na konci hodiny napíše tri krátke vety.",
+      "en": "At the end of the lesson he writes three short sentences."
+    },
+    {
+      "id": "s16",
+      "sk": "V jednej vete urobí malú chybu.",
+      "en": "He makes a small mistake in one sentence."
+    },
+    {
+      "id": "s17",
+      "sk": "Učiteľka mu ukáže správny tvar slovesa.",
+      "en": "The teacher shows him the correct verb form."
+    },
+    {
+      "id": "s18",
+      "sk": "Adam si opravu zapíše do zošita.",
+      "en": "Adam writes the correction in his notebook."
+    },
+    {
+      "id": "s19",
+      "sk": "Doma si chce nové slová ešte raz prečítať.",
+      "en": "At home he wants to read the new words once more."
+    },
+    {
+      "id": "s20",
+      "sk": "Teší sa, že každý týždeň rozumie trochu viac.",
+      "en": "He is happy that he understands a little more each week."
+    }
+  ],
+  "glossary": [
+    {
+      "surface": "učí",
+      "lemma": "učiť sa",
+      "partOfSpeech": "verb",
+      "meaning": "is learning",
+      "note": "Present tense, third person singular; sa is part of učiť sa. Here it comes before učí because Adam comes first.",
+      "forms": [
+        {
+          "label": "Infinitive",
+          "value": "učiť sa"
+        },
+        {
+          "label": "I learn",
+          "value": "učím sa"
+        },
+        {
+          "label": "He/she learns",
+          "value": "učí sa"
+        }
+      ]
+    },
+    {
+      "surface": "učiteľka",
+      "lemma": "učiteľka",
+      "partOfSpeech": "noun",
+      "meaning": "teacher",
+      "note": "Feminine noun."
+    },
+    {
+      "surface": "nahlas",
+      "lemma": "nahlas",
+      "partOfSpeech": "adverb",
+      "meaning": "aloud",
+      "note": "Describes reading with a voice."
+    },
+    {
+      "surface": "nerozumie",
+      "lemma": "rozumieť",
+      "partOfSpeech": "verb",
+      "meaning": "does not understand",
+      "note": "Negative form, third person singular."
+    },
+    {
+      "surface": "súrodenec",
+      "lemma": "súrodenec",
+      "partOfSpeech": "noun",
+      "meaning": "sibling",
+      "note": "A brother or sister.",
+      "forms": [
+        {
+          "label": "Singular",
+          "value": "súrodenec"
+        },
+        {
+          "label": "Plural",
+          "value": "súrodenci"
+        }
+      ]
+    },
+    {
+      "surface": "zapamätá",
+      "lemma": "zapamätať si",
+      "partOfSpeech": "verb",
+      "meaning": "remembers",
+      "note": "Third person singular; si is part of the verb phrase."
+    },
+    {
+      "surface": "výslovnosťou",
+      "lemma": "výslovnosť",
+      "partOfSpeech": "noun",
+      "meaning": "pronunciation",
+      "note": "Instrumental singular after s."
+    },
+    {
+      "surface": "chybu",
+      "lemma": "chyba",
+      "partOfSpeech": "noun",
+      "meaning": "mistake",
+      "note": "Accusative singular.",
+      "forms": [
+        {
+          "label": "Singular",
+          "value": "chyba"
+        },
+        {
+          "label": "Accusative singular",
+          "value": "chybu"
+        },
+        {
+          "label": "Plural",
+          "value": "chyby"
+        }
+      ]
+    },
+    {
+      "surface": "zošita",
+      "lemma": "zošit",
+      "partOfSpeech": "noun",
+      "meaning": "notebook",
+      "note": "Genitive singular after do."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "promptSk": "O čom je text na hodine?",
+      "options": [
+        {
+          "id": "a",
+          "text": "O rodine."
+        },
+        {
+          "id": "b",
+          "text": "O jedle."
+        },
+        {
+          "id": "c",
+          "text": "O cestovaní."
+        }
+      ],
+      "answerId": "a",
+      "sourceSentenceIds": [
+        "s5"
+      ],
+      "explanationEn": "The lesson text is about a family."
+    },
+    {
+      "id": "q2",
+      "promptSk": "Čo znamená slovo „súrodenec“?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rodič."
+        },
+        {
+          "id": "b",
+          "text": "Brat alebo sestra."
+        },
+        {
+          "id": "c",
+          "text": "Učiteľ."
+        }
+      ],
+      "answerId": "b",
+      "sourceSentenceIds": [
+        "s9"
+      ],
+      "explanationEn": "A sibling is a brother or sister."
+    },
+    {
+      "id": "q3",
+      "promptSk": "Koľko viet Adam napíše na konci hodiny?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jednu."
+        },
+        {
+          "id": "b",
+          "text": "Dve."
+        },
+        {
+          "id": "c",
+          "text": "Tri."
+        }
+      ],
+      "answerId": "c",
+      "sourceSentenceIds": [
+        "s15"
+      ],
+      "explanationEn": "Adam writes three short sentences."
+    }
+  ]
+}

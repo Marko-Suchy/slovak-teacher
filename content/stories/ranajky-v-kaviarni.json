@@ -1,0 +1,298 @@
+{
+  "id": "ranajky-v-kaviarni",
+  "title": "Raňajky v kaviarni",
+  "topic": "Food and ordering",
+  "level": "A1",
+  "estimatedMinutes": 9,
+  "sentences": [
+    {
+      "id": "s1",
+      "sk": "V sobotu ráno ide Martin do malej kaviarne.",
+      "en": "On Saturday morning Martin goes to a small café."
+    },
+    {
+      "id": "s2",
+      "sk": "Kaviareň je blízko jeho domu.",
+      "en": "The café is close to his house."
+    },
+    {
+      "id": "s3",
+      "sk": "Pri okne sedí jeho kamarátka Lucia.",
+      "en": "His friend Lucia is sitting by the window."
+    },
+    {
+      "id": "s4",
+      "sk": "Martin ju pozdraví a sadne si k nej.",
+      "en": "Martin greets her and sits down with her."
+    },
+    {
+      "id": "s5",
+      "sk": "Na stole je jedálny lístok a pohár vody.",
+      "en": "There is a menu and a glass of water on the table."
+    },
+    {
+      "id": "s6",
+      "sk": "Lucia chce horúci čaj a niečo malé na raňajky.",
+      "en": "Lucia wants hot tea and something small for breakfast."
+    },
+    {
+      "id": "s7",
+      "sk": "Martin má hlad, preto si objedná vajíčka a chlieb.",
+      "en": "Martin is hungry, so he orders eggs and bread."
+    },
+    {
+      "id": "s8",
+      "sk": "Čašníčka sa pýta, či chce aj kávu.",
+      "en": "The waitress asks if he also wants coffee."
+    },
+    {
+      "id": "s9",
+      "sk": "Martin povie, že dnes chce radšej džús.",
+      "en": "Martin says that today he would rather have juice."
+    },
+    {
+      "id": "s10",
+      "sk": "Lucia sa usmeje a objedná si jogurt s ovocím.",
+      "en": "Lucia smiles and orders yogurt with fruit."
+    },
+    {
+      "id": "s11",
+      "sk": "Čašníčka prinesie nápoje veľmi rýchlo.",
+      "en": "The waitress brings the drinks very quickly."
+    },
+    {
+      "id": "s12",
+      "sk": "Čaj je teplý a Martinov džús je studený.",
+      "en": "The tea is warm, and Martin’s juice is cold."
+    },
+    {
+      "id": "s13",
+      "sk": "Pri jedle sa rozprávajú o svojom týždni.",
+      "en": "While eating, they talk about their week."
+    },
+    {
+      "id": "s14",
+      "sk": "Lucia má novú prácu v kníhkupectve.",
+      "en": "Lucia has a new job in a bookshop."
+    },
+    {
+      "id": "s15",
+      "sk": "Martin jej povie, že sa teší na voľný deň.",
+      "en": "Martin tells her that he is looking forward to a day off."
+    },
+    {
+      "id": "s16",
+      "sk": "Po raňajkách si chcú pozrieť trh na námestí.",
+      "en": "After breakfast they want to see the market in the square."
+    },
+    {
+      "id": "s17",
+      "sk": "Čašníčka položí účet na stôl.",
+      "en": "The waitress puts the bill on the table."
+    },
+    {
+      "id": "s18",
+      "sk": "Martin a Lucia zaplatia spolu.",
+      "en": "Martin and Lucia pay together."
+    },
+    {
+      "id": "s19",
+      "sk": "Pred odchodom poďakujú a povedia dovidenia.",
+      "en": "Before leaving, they say thank you and goodbye."
+    },
+    {
+      "id": "s20",
+      "sk": "Vonku je pekný deň a obaja majú dobrú náladu.",
+      "en": "It is a nice day outside, and both are in a good mood."
+    }
+  ],
+  "glossary": [
+    {
+      "surface": "kaviareň",
+      "lemma": "kaviareň",
+      "partOfSpeech": "noun",
+      "meaning": "café",
+      "note": "Feminine noun; a place to have coffee or a small meal."
+    },
+    {
+      "surface": "blízko",
+      "lemma": "blízko",
+      "partOfSpeech": "preposition",
+      "meaning": "near",
+      "note": "Used with the genitive: blízko domu."
+    },
+    {
+      "surface": "jedálny lístok",
+      "lemma": "jedálny lístok",
+      "partOfSpeech": "noun",
+      "meaning": "menu",
+      "note": "Literally “food list”; masculine noun phrase."
+    },
+    {
+      "surface": "objedná",
+      "lemma": "objednať si",
+      "partOfSpeech": "verb",
+      "meaning": "orders",
+      "note": "Third person singular; si means ordering for oneself.",
+      "forms": [
+        {
+          "label": "Infinitive",
+          "value": "objednať si"
+        },
+        {
+          "label": "I will order",
+          "value": "objednám si"
+        },
+        {
+          "label": "He/she will order",
+          "value": "objedná si"
+        }
+      ]
+    },
+    {
+      "surface": "čašníčka",
+      "lemma": "čašníčka",
+      "partOfSpeech": "noun",
+      "meaning": "waitress",
+      "note": "Feminine noun.",
+      "forms": [
+        {
+          "label": "Singular",
+          "value": "čašníčka"
+        },
+        {
+          "label": "Accusative singular",
+          "value": "čašníčku"
+        },
+        {
+          "label": "Plural",
+          "value": "čašníčky"
+        }
+      ]
+    },
+    {
+      "surface": "kávu",
+      "lemma": "káva",
+      "partOfSpeech": "noun",
+      "meaning": "coffee",
+      "note": "Accusative singular of the feminine noun káva; it is the thing someone wants.",
+      "forms": [
+        { "label": "Dictionary form", "value": "káva" },
+        { "label": "Accusative singular", "value": "kávu" }
+      ]
+    },
+    {
+      "surface": "radšej",
+      "lemma": "radšej",
+      "partOfSpeech": "adverb",
+      "meaning": "rather",
+      "note": "Used to state a preference."
+    },
+    {
+      "surface": "nápoje",
+      "lemma": "nápoj",
+      "partOfSpeech": "noun",
+      "meaning": "drinks",
+      "note": "Accusative plural of masculine noun nápoj; it is the object of prinesie."
+    },
+    {
+      "surface": "účet",
+      "lemma": "účet",
+      "partOfSpeech": "noun",
+      "meaning": "bill",
+      "note": "Masculine noun; here it means the café bill."
+    },
+    {
+      "surface": "zaplatia",
+      "lemma": "zaplatiť",
+      "partOfSpeech": "verb",
+      "meaning": "they pay",
+      "note": "Third person plural.",
+      "forms": [
+        {
+          "label": "Infinitive",
+          "value": "zaplatiť"
+        },
+        {
+          "label": "I will pay",
+          "value": "zaplatím"
+        },
+        {
+          "label": "They will pay",
+          "value": "zaplatia"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "promptSk": "Kde sedí Lucia?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pri okne."
+        },
+        {
+          "id": "b",
+          "text": "Pri dverách."
+        },
+        {
+          "id": "c",
+          "text": "Vonku."
+        }
+      ],
+      "answerId": "a",
+      "sourceSentenceIds": [
+        "s3"
+      ],
+      "explanationEn": "Lucia is sitting by the window."
+    },
+    {
+      "id": "q2",
+      "promptSk": "Čo si Martin objedná na jedenie?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jogurt s ovocím."
+        },
+        {
+          "id": "b",
+          "text": "Vajíčka a chlieb."
+        },
+        {
+          "id": "c",
+          "text": "Koláč."
+        }
+      ],
+      "answerId": "b",
+      "sourceSentenceIds": [
+        "s7"
+      ],
+      "explanationEn": "Martin orders eggs and bread."
+    },
+    {
+      "id": "q3",
+      "promptSk": "Kam chcú ísť po raňajkách?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Do kina."
+        },
+        {
+          "id": "b",
+          "text": "Domov."
+        },
+        {
+          "id": "c",
+          "text": "Na trh na námestí."
+        }
+      ],
+      "answerId": "c",
+      "sourceSentenceIds": [
+        "s16"
+      ],
+      "explanationEn": "They want to see the market in the square."
+    }
+  ]
+}

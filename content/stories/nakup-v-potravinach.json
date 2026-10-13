@@ -1,0 +1,287 @@
+{
+  "id": "nakup-v-potravinach",
+  "title": "Nákup v potravinách",
+  "topic": "Shopping",
+  "level": "A1",
+  "estimatedMinutes": 9,
+  "sentences": [
+    {
+      "id": "s1",
+      "sk": "Anna ide po práci do obchodu s potravinami.",
+      "en": "After work Anna goes to the grocery store."
+    },
+    {
+      "id": "s2",
+      "sk": "Doma už nemá mlieko ani chlieb.",
+      "en": "At home she has no milk or bread left."
+    },
+    {
+      "id": "s3",
+      "sk": "Pred obchodom vytiahne z tašky krátky zoznam.",
+      "en": "In front of the store she takes a short list out of her bag."
+    },
+    {
+      "id": "s4",
+      "sk": "Na zozname sú mlieko, chlieb, paradajky a jablká.",
+      "en": "The list has milk, bread, tomatoes, and apples."
+    },
+    {
+      "id": "s5",
+      "sk": "Najprv vezme košík pri vchode.",
+      "en": "First she takes a basket by the entrance."
+    },
+    {
+      "id": "s6",
+      "sk": "Potom nájde čerstvý chlieb na polici.",
+      "en": "Then she finds fresh bread on a shelf."
+    },
+    {
+      "id": "s7",
+      "sk": "Pri zelenine vidí červené paradajky a zelené uhorky.",
+      "en": "By the vegetables she sees red tomatoes and green cucumbers."
+    },
+    {
+      "id": "s8",
+      "sk": "Uhorky nie sú na zozname, ale Anna ich má rada.",
+      "en": "Cucumbers are not on the list, but Anna likes them."
+    },
+    {
+      "id": "s9",
+      "sk": "Vezme dve uhorky a štyri paradajky.",
+      "en": "She takes two cucumbers and four tomatoes."
+    },
+    {
+      "id": "s10",
+      "sk": "Pri ovocí vyberie tri veľké jablká.",
+      "en": "By the fruit she chooses three large apples."
+    },
+    {
+      "id": "s11",
+      "sk": "Mlieko je v chladničke na konci obchodu.",
+      "en": "The milk is in a refrigerator at the end of the store."
+    },
+    {
+      "id": "s12",
+      "sk": "Anna vezme liter mlieka a ide k pokladni.",
+      "en": "Anna takes a liter of milk and goes to the checkout."
+    },
+    {
+      "id": "s13",
+      "sk": "Pred ňou stojí starší pán s plným košíkom.",
+      "en": "An older man with a full basket stands in front of her."
+    },
+    {
+      "id": "s14",
+      "sk": "Anna chvíľu čaká a pozerá na svoj zoznam.",
+      "en": "Anna waits a moment and looks at her list."
+    },
+    {
+      "id": "s15",
+      "sk": "Zistí, že zabudla kúpiť maslo.",
+      "en": "She realizes she forgot to buy butter."
+    },
+    {
+      "id": "s16",
+      "sk": "Rýchlo sa vráti k chladničke a vezme maslo.",
+      "en": "She quickly returns to the refrigerator and takes butter."
+    },
+    {
+      "id": "s17",
+      "sk": "Pri pokladni zaplatí kartou.",
+      "en": "At the checkout she pays by card."
+    },
+    {
+      "id": "s18",
+      "sk": "Predavačka jej podá účtenku a usmeje sa.",
+      "en": "The cashier gives her a receipt and smiles."
+    },
+    {
+      "id": "s19",
+      "sk": "Anna si dá nákup do tašky a ide domov.",
+      "en": "Anna puts her groceries in her bag and goes home."
+    },
+    {
+      "id": "s20",
+      "sk": "Večer si z paradajok pripraví jednoduchý šalát.",
+      "en": "In the evening she makes a simple salad from the tomatoes."
+    }
+  ],
+  "glossary": [
+    {
+      "surface": "potravinami",
+      "lemma": "potraviny",
+      "partOfSpeech": "noun",
+      "meaning": "food / groceries",
+      "note": "Instrumental plural after s; obchod s potravinami means grocery store."
+    },
+    {
+      "surface": "zoznam",
+      "lemma": "zoznam",
+      "partOfSpeech": "noun",
+      "meaning": "list",
+      "note": "Masculine noun; here a shopping list."
+    },
+    {
+      "surface": "košík",
+      "lemma": "košík",
+      "partOfSpeech": "noun",
+      "meaning": "basket",
+      "note": "Masculine noun."
+    },
+    {
+      "surface": "polici",
+      "lemma": "polica",
+      "partOfSpeech": "noun",
+      "meaning": "shelf",
+      "note": "Locative singular after na."
+    },
+    {
+      "surface": "uhorky",
+      "lemma": "uhorka",
+      "partOfSpeech": "noun",
+      "meaning": "cucumbers",
+      "note": "Plural of feminine noun uhorka.",
+      "forms": [
+        {
+          "label": "Singular",
+          "value": "uhorka"
+        },
+        {
+          "label": "Accusative singular",
+          "value": "uhorku"
+        },
+        {
+          "label": "Plural",
+          "value": "uhorky"
+        }
+      ]
+    },
+    {
+      "surface": "vyberie",
+      "lemma": "vybrať",
+      "partOfSpeech": "verb",
+      "meaning": "she chooses",
+      "note": "Third person singular.",
+      "forms": [
+        {
+          "label": "Infinitive",
+          "value": "vybrať"
+        },
+        {
+          "label": "I will choose",
+          "value": "vyberiem"
+        },
+        {
+          "label": "He/she will choose",
+          "value": "vyberie"
+        }
+      ]
+    },
+    {
+      "surface": "pokladni",
+      "lemma": "pokladňa",
+      "partOfSpeech": "noun",
+      "meaning": "checkout",
+      "note": "Dative singular after directional k."
+    },
+    {
+      "surface": "zabudla",
+      "lemma": "zabudnúť",
+      "partOfSpeech": "verb",
+      "meaning": "she forgot",
+      "note": "Past tense, feminine singular.",
+      "forms": [
+        {
+          "label": "Infinitive",
+          "value": "zabudnúť"
+        },
+        {
+          "label": "I will forget",
+          "value": "zabudnem"
+        },
+        {
+          "label": "She forgot",
+          "value": "zabudla"
+        }
+      ]
+    },
+    {
+      "surface": "účtenku",
+      "lemma": "účtenka",
+      "partOfSpeech": "noun",
+      "meaning": "receipt",
+      "note": "Accusative singular."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "promptSk": "Čo má Anna na zozname?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mlieko, chlieb, paradajky a jablká."
+        },
+        {
+          "id": "b",
+          "text": "Maslo, syr a vajíčka."
+        },
+        {
+          "id": "c",
+          "text": "Čaj a kávu."
+        }
+      ],
+      "answerId": "a",
+      "sourceSentenceIds": [
+        "s4"
+      ],
+      "explanationEn": "The list contains milk, bread, tomatoes, and apples."
+    },
+    {
+      "id": "q2",
+      "promptSk": "Koľko paradajok Anna vezme?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dve."
+        },
+        {
+          "id": "b",
+          "text": "Štyri."
+        },
+        {
+          "id": "c",
+          "text": "Tri."
+        }
+      ],
+      "answerId": "b",
+      "sourceSentenceIds": [
+        "s9"
+      ],
+      "explanationEn": "Anna takes four tomatoes."
+    },
+    {
+      "id": "q3",
+      "promptSk": "Čo Anna zabudla kúpiť?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chlieb."
+        },
+        {
+          "id": "b",
+          "text": "Mlieko."
+        },
+        {
+          "id": "c",
+          "text": "Maslo."
+        }
+      ],
+      "answerId": "c",
+      "sourceSentenceIds": [
+        "s15"
+      ],
+      "explanationEn": "She realizes she forgot the butter."
+    }
+  ]
+}
